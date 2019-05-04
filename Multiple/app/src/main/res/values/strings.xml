@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">换肤和夜间模式</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置</string>
+</resources>

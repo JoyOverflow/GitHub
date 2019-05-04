@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gallery</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="search">搜索图片</string>
+    <string name="clear_search">清除搜索</string>
+</resources>

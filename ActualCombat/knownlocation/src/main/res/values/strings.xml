@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">测试位置服务</string>
+    <string name="btn_name">获取位置</string>
+</resources>

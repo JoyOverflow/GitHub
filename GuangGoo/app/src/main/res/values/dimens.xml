@@ -1,0 +1,46 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">172dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="avatar_size_large">72dp</dimen>
+    <dimen name="avatar_size">64dp</dimen>
+    <dimen name="normal_margin">16dp</dimen>
+    <dimen name="large_middle_margin">14dp</dimen>
+    <dimen name="middle_margin">12dp</dimen>
+    <dimen name="inner_margin">8dp</dimen>
+    <dimen name="avatar_size_middle">32dp</dimen>
+    <dimen name="avatar_size_small">20dp</dimen>
+    <dimen name="keep_blank">48dp</dimen>
+    <dimen name="titleText">16sp</dimen>
+    <dimen name="comment_edit_height">64dp</dimen>
+    <dimen name="button_height">36dp</dimen>
+    <dimen name="comment_button_width">44dp</dimen>
+    <dimen name="small_margin">4dp</dimen>
+    <dimen name="linear_item_height">54dp</dimen>
+    <dimen name="linear_item_font_size">16sp</dimen>
+    <dimen name="tab_height">40dp</dimen>
+    <dimen name="font_title">20sp</dimen>
+    <dimen name="font_normal">16sp</dimen>
+    <dimen name="font_tab">15sp</dimen>
+    <dimen name="font_comment">15sp</dimen>
+    <dimen name="font_small">14sp</dimen>
+    <dimen name="font_smallest">12sp</dimen>
+    <dimen name="small_padding">4dp</dimen>
+    <dimen name="nav_header_margin">20dp</dimen>
+    <dimen name="avatar_margin_top">36dp</dimen>
+    <dimen name="topic_detail_avatar">40dp</dimen>
+    <dimen name="topic_detail_avatar_top">20dp</dimen>
+    <dimen name="button_radius">2dp</dimen>
+    <dimen name="follow_button_width">63dp</dimen>
+    <dimen name="follow_button_height">26dp</dimen>
+    <dimen name="font_little">10sp</dimen>
+    <dimen name="image_button_size">24dp</dimen>
+    <dimen name="bottom_bar_height">48dp</dimen>
+    <dimen name="icon_interval">32dp</dimen>
+    <dimen name="split_height">1px</dimen>
+    <item name="line_spacing_multiplier" type="dimen" format="float">1.2</item>
+</resources>

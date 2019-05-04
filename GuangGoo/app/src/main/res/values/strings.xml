@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">光谷社区</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_comment">评论</string>
+    <string name="not_logged_in">未登录</string>
+    <string name="nodes_list">节点列表</string>
+    <string name="home">首页</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">不是有效的 Email 地址</string>
+    <string name="error_invalid_password">密码太短了</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">这里不能为空</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="back_to_quit">连按两次返回键退出</string>
+    <string name="load_more_comments">加载更多评论</string>
+    <string name="beginner_guide">新手指南</string>
+    <string name="comment">评论</string>
+    <string name="cancel">取消</string>
+    <string name="please_input_comment_content">评论内容不能为空</string>
+    <string name="add_comment">请输入评论内容</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="topic_list">主题列表</string>
+    <string name="default_order_topics">默认排序</string>
+    <string name="login">登录</string>
+    <string name="profile">个人信息</string>
+    <string name="error_happened">出错啦，快喊 mzlogin 来解 bug！</string>
+    <string name="topic_detail">主题详情</string>
+    <string name="elite_topics">精华主题</string>
+    <string name="latest_topics">最新话题</string>
+    <string name="follows_topics">关注的人</string>
+    <string name="share_to">分享到</string>
+    <string name="cannot_share">无法分享</string>
+    <string name="user_replies">TA 的回复</string>
+    <string name="user_topics">TA 的主题</string>
+    <string name="personal_center">个人中心</string>
+    <string name="notifications">消息提醒</string>
+    <string name="my_favors">我的收藏</string>
+    <string name="user_favors">TA 的收藏</string>
+    <string name="no_content">暂无内容</string>
+    <string name="action_register">没有账号？点此注册</string>
+    <string name="about">关于我们</string>
+    <string name="contact_me">发邮件吐槽</string>
+    <string name="app_description">光谷社区第三方客户端 %1$s\nPowered by mzlogin / colinlee</string>
+    <string name="version_unknown">未知版本</string>
+    <string name="version_name_format">v%1$s(%2$d)</string>
+    <string name="follow_github">\@mzlogin</string>
+    <string name="author_email">chumpma@gmail.com</string>
+    <string name="author_website">http://mazhuang.org</string>
+    <string name="author_github">mzlogin</string>
+    <string name="source_code">获取源代码</string>
+    <string name="source_code_address">mzlogin/guanggoo-android</string>
+    <string name="reply_list">回复列表</string>
+    <string name="new_topic">发表新主题</string>
+    <string name="please_input_title">请输入标题</string>
+    <string name="please_input_content">请输入内容</string>
+    <string name="error_invalid_title">标题太短</string>
+    <string name="error_invalid_content">内容太短</string>
+    <string name="feedback">建议与反馈</string>
+    <string name="issue_address">https://github.com/mzlogin/guanggoo-android/issues</string>
+    <string name="check_updates">检查新版本</string>
+    <string name="share_link">分享链接</string>
+    <string name="favorite">收藏</string>
+    <string name="cancel_favorite">取消收藏</string>
+    <string name="select_node_to_new_topic">选择发贴节点</string>
+    <string name="view_image">查看图片</string>
+    <string name="save">保存</string>
+    <string name="comments_info_short">%1$s 评论 · %2$s</string>
+    <string name="comments_info_long">%1$s 评论 · 最新回复 %2$s · %3$s</string>
+    <string name="follow">+ 关注</string>
+    <string name="comments_count">共收到%1$d条评论</string>
+    <string name="reply">发表评论...</string>
+    <string name="favorite_succeed">收藏成功</string>
+    <string name="unfavorite_succeed">取消收藏成功</string>
+    <string name="logout">退出登录</string>
+    <string name="my_favorite">我的收藏</string>
+    <string name="my_topic">我的主题</string>
+    <string name="my_reply">我的回复</string>
+    <string name="qrcode">分享给好友</string>
+    <string name="unfollow">取消关注</string>
+    <string name="cannot_follow_self">不能关注自己</string>
+    <string name="cannot_favorite_self_own_topic">不能收藏自己的帖子</string>
+    <string name="confirm">确定</string>
+    <string name="logout_confirm">确认退出？</string>
+    <string name="logout_tip_message">退出后缓存将被清空，大部分功能需要重新登录后才能使用，确认退出吗？</string>
+    <string name="cannot_vote_self">不能对自己的评论点赞</string>
+
+    <string-array name="home_tab_names">
+        <item>@string/default_order_topics</item>
+        <item>@string/latest_topics</item>
+        <item>@string/elite_topics</item>
+        <item>@string/follows_topics</item>
+    </string-array>
+</resources>

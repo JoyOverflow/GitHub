@@ -1,0 +1,9 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation files('libs/kxml2-2.3.0.jar')
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"

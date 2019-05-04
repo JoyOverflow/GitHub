@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="pxgd.hyena.com.material">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeLight">
+        <activity
+            android:name=".LaunchActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeLaunch">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/login"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/about"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".CrashLogActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/app_crash"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".LicenseActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/open_source_license"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".UserDetailActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/user_detail"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".TopicCompatActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/topic"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".TopicActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/topic"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".CreateTopicActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/new_topic"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+        </activity>
+        <activity
+            android:name=".NotificationCompatActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/notification"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".NotificationActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/notification"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ScanQRCodeActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/scan_qr_code"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".SettingActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/setting"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ModifyTopicSignActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/modify_topic_sign"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+        </activity>
+        <activity
+            android:name=".MarkdownPreviewActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/markdown_preview"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ImagePreviewActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/image_preview"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".LinkRouterActivity"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="https"
+                    android:host="cnodejs.org"
+                    android:pathPrefix="/topic/" />
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="https"
+                    android:host="cnodejs.org"
+                    android:pathPrefix="/user/" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".TestActivity">
+        </activity>
+    </application>
+</manifest>
